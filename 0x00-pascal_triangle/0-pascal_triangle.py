@@ -7,7 +7,7 @@ def pascal_triangle(n):
 
     triangle = []
     if n <= 0:
-        return traingle
+        return triangle
     for row_num in range(n):
         if row_num == 0:
             row = [1]
